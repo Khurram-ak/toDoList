@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.divClass {
+    margin-top:20px ;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 414px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    border-radius: 5px;
+    align-items: center;
+    border-radius: 10px;
+    background: #c7a8a8;
+    box-shadow: 7px 7px 10px #8f7979,
+        -7px -7px 10px #ffd7d7;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./assests/images/bgImg.jpg);
+    background-size: cover;
+    /* background-repeat:no */
+}
+
+.box {
+    /* border: 2px solid black; */
+    margin: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #c7a8a8;
+    box-shadow: 7px 7px 10px #8f7979,
+        -7px -7px 10px #ffd7d7;
+    /* height: 400px; */
+}
+
+.mainBox {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid blue; */
+}
+
+.btn {
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    background-color: rgba(0,0,0,0);
+    font-family: 'RocknRoll One', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn2 {
+    text-decoration: line-through;
+}
+
+.list {
+    flex: 1;
+    list-style-type: none;
+    font-family: 'RocknRoll One', sans-serif;
+
+}
+
+.completed {
+    text-decoration: line-through !important;
+
+
+}
+
+.inputField {
+    padding: 10px;
+    font-family: 'RocknRoll One', sans-serif;
+    display: inline;
+    margin: 10px 0px;
+    width: 365px;
+    border-radius: 10px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background: #c7a8a8;
+    box-shadow: inset 7px 7px 10px #8f7979,
+        inset -7px -7px 10px #ffd7d7;
+}
+
+.addBtn {
+    border: none;
+    padding: 9px;
+    border-radius: 10px;
+    outline: none;
+    border-radius: 10px;
+    background: #c7a8a8;
+    box-shadow: 7px 7px 10px #8f7979,
+        -7px -7px 10px #ffd7d7;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'RocknRoll One', sans-serif;
+    cursor: pointer;
+}
+
+.addBtn:active {
+    box-shadow: inset 7px 7px 10px #8f7979,
+        inset -7px -7px 10px #ffd7d7;
+}
