@@ -114,3 +114,51 @@ body {
     box-shadow: inset 7px 7px 10px #8f7979,
         inset -7px -7px 10px #ffd7d7;
 }
+
+
+@media screen and (max-width:840px) {
+    .box{
+        width:60%
+    }
+    
+}
+@media screen and (max-width:690px) {
+    .box{
+        width:78%
+    }
+}
+@media screen and (max-width:540px) {
+    .inputField{
+        width: 200px;
+    }
+    .divClass{
+        width:250px ;
+    }
+}
+@media screen and (max-width:350px) {
+.inputField{
+    width: 150px;
+}
+
+.divClass{
+    width:190px ;
+}
+}
+@media screen and (max-width:320px) {
+    .inputField{
+        width: 120px;
+    }
+    .box{
+        width: 100%;
+    }
+    .mainBox{
+        width: 100%;
+    }
+    .divClass{
+        height: auto;
+        flex-wrap: wrap;
+        width:180px ;
+    }
+
+
+}
